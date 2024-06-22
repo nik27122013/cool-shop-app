@@ -84,9 +84,28 @@ input {
 }
 
 /* --------- MAIN ---------*/
+main {
+  display: flex;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 /* --- Види товарів --- */
 
 /* --- Реклама --- */
+.advertising {
+  position: relative;
+  height: 252px;
+  padding: 24px 60px;
+  display: flex;
+  justify-content: end;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/images/tennis.jpg);
+}
 
 /* --- Популярні --- */
 .icon-favorite-dark {
